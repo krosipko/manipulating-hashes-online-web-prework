@@ -8,10 +8,6 @@ def second_challenge
 
   #code your solution here!
   new_array=[]
-  groceries.each do |key , value|
-    value.each do |val|
-      new_array << val
-    end
-  end
+  new_array << groceries.values
   new_array
 end
