@@ -8,6 +8,6 @@ def second_challenge
 
   #code your solution here!
   new_array=[]
-  new_array << groceries.values
+  groceries.values e
   new_array
 end
