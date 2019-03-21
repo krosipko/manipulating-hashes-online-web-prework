@@ -9,7 +9,9 @@ def second_challenge
   #code your solution here!
   new_array=[]
   groceries.values.each do |val|
-    new_array << val
+    val.each do |va|
+      new_array << va 
+    end
   end
   new_array
 end
